@@ -1,0 +1,85 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+body{
+    background-color:  lightblue;
+}
+.fav{
+    width: 100%;
+    padding: 100px 0px;
+}
+.container {
+    margin: 0 auto;
+    padding: 0px 30px;
+    max-width: 1250px;
+  }
+  .end{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .section3{
+    width: 100%;
+  }
+  .section3 .for {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    flex-wrap: wrap;
+  }
+  .section3 .for .js-item {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section3 .for .js-item img {
+    background-size: cover;
+  }
+  .section3 .for .js-item h1 {
+    color: rgb(30, 29, 29);
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+  }
+  .section3 .for .js-item p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .section3 .for .js-item button {
+    width: 120px;
+    padding: 7px 0px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(127, 211, 239);
+    font-size: 14px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width:800px) {
+    .for{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
