@@ -27,6 +27,7 @@ fetch(`http://localhost:3000/box/`)
             <img src="${element.image}" alt="">
             <h1>${element.name}</h1>
             <p>${element.description}</p>
+            <button class="btn-3" onclick="GetAll(${element.id})">GetAll</button>
             <button class="btn-1" onclick="deleteEl(${element.id})">Delete</button>
             <button class="btn-2" onclick="updateEl(${element.id})">Update</button>
         </div>
@@ -39,6 +40,7 @@ fetch(`http://localhost:3000/box/`)
         <img src="${element.image}" alt="">
         <h1>${element.name}</h1>
         <p>${element.description}</p>
+        <button class="btn-3" onclick="GetAll(${element.id})">GetAll</button>
         <button class="btn-1" onclick="deleteEl(${element.id})">Delete</button>
         <button class="btn-2" onclick="updateEl(${element.id})">Update</button>
     </div>
@@ -55,6 +57,10 @@ page+=8;
 LoadDataJson();
 
 })
+ 
+function GetAll(id){
+    window.location=`getall.html?id=${id}`
+}
 
 function deleteEl(id){
     axios.delete(`http://localhost:3000/box/${id}`)
