@@ -13,6 +13,18 @@
       "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
     },
     {
+      "id": 3,
+      "image": "img/ss-icon-3.png.webp",
+      "name": "Share Hosting",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
+      "id": 4,
+      "image": "img/ss-icon-4.png.webp",
+      "name": "VPS Server",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    },
+    {
       "id": 5,
       "image": "img/ss-icon-5.png.webp",
       "name": "WHCMS",
@@ -26,65 +38,16 @@
     },
     {
       "id": 7,
-      "image": "img/ss-icon-7.png.webp",
+      "image": "data:image/webp;base64,UklGRlQEAABXRUJQVlA4WAoAAAAQAAAAOwAAOwAAQUxQSMMBAAABkChJsmlbfYxr23y2bdu2bdu2bdu2bdu2MY8bMz8QERMAbc2OwMz1x647d/fB5R3TW+YJd7GAq8krbbcLpPLpyJwBVg6WqNpXSdOvXZK46BbdlnQcl2jQxbXAG9L1U61gHZKOJt23pNEs83Vi+LyKTRNjpSfE8scALw0szd8S17m+qswt3xPfxT5qqrwgzuNdlWW8Tay/NTEqCT9NzB+kUeA+l9ifDvpfka/8aKjjXyF3SeC7VP+w9yCRZ3z+Cnsvg9IDMNUjoVvcAJ9XUn5EAKlIbCOjuY+cyw6Xh3IoIJAE580mqXtjSQvHS9q2WdLJc5Ku3ZN0/6Gkh5cl3dgl6cwMSbvaSFqeX9KQcEklXT8JCrdMkfPKFbnk9DYj4JuYpICtv5RrngBivgkpZgDgvkjGo0D8Hf1Ewo/C+KepsYSV7v9C4Al+N8Lx//hb3L5VgNIan5jNcFPkMpzX7kAo917AaX8U1Pot4HMoDup9RnLZmAAtnfVfsxgTBo3TndbvWVkXaB7VXa9pSaGnLcNWPe4Uc4fO3lkWaHWgeCAYukQ3PKzueueUHgbwNNkDcnWcs+XotXv3b57asbB/sXAXMzQFAFZQOCBqAgAAMA8AnQEqPAA8AD5tMpNHJCMhoSoWauiADYlkAMULzERWzP8AOnx6T8QPUxnDP03/XT3gP5z6kfJm6yD0KP1m63I9yIqmmj94+sj7boXQeYWQ3ZSA9/0oviJg5HSU9ztTeGrLXjufRItOacVyCa3lZLGneNvax89oWRyHmxMn5M40gAD9G2fDNtqvO3/6gwvM8GTF/+6erF7nvkyBoI+4iK0D9vrYOlyjtXCO1Z9q6lVAD7HIfAJvuXVcqdzrE1KmQumP3+j4dM2SlCT1D6qn6oUUzdV+x+f8FRb5UsAUxZT6ru43Y0iEPo45BWRKkC6xijOZyk5G7B08j8lGWgc9/Z9fyjDEXuXy8E++UC6SvHhK4vHPsb8mrQfecVz//RvaCdDdLJP6Bz6cvb51L2YpcR4uR7+QQwdv4uyPRlyNHKlxgNFsjhVlgpx6Wb3BTmbbZtYVxs71ImAqnTNs9+OrnDwOxjHZW8VFX23YmLcXnOdJZOd8NhC0Szr29h2EzJNqJbslmP8fRCAZ8OClEfBGxJfKeucu8N0IkMQqT3hlNUgI04t/ta8xnqGqX/d5LS8nmGOsLMr5InIurMjF02/3XyNc9y0Le6BpP8kgeM++aLL8X1eqNctA11tqG9JxjzKHSlladdJYn1a7MneW5mdGBI2lHlUW8MuzoIwbsHM5IT1H1TMjrzfXtMn1qIFxlW6MmPK4p0uMsIzhNzAPwxPDT3fpY9uZhqc86zEMcuL/ryQAar0c4HAkRIjdi6WxcgNTqfWXPQ1u9vZgBvCluQvWfAAO4NB8Q7rCQ8s6vnYI6gZz0g2PK/gQUAAA",
       "name": "Windows Hosting",
       "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
     },
     {
-      "id": 8,
-      "image": "img/ss-icon-8.png.webp",
-      "name": "Database Hosting",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
-      "id": 1,
-      "image": "img/ss-icon-1.png.webp",
-      "name": "Cloud Hosting",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
-      "id": 2,
-      "image": "img/ss-icon-2.png.webp",
-      "name": "Web Hosting",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
-      "id": 3,
-      "image": "img/ss-icon-3.png.webp",
-      "name": "Share Hosting",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
       "image": "data:image/webp;base64,UklGRhYFAABXRUJQVlA4WAoAAAAQAAAAOwAAOwAAQUxQSFsBAAABkKNt27FHd2zbttnZ5tgokw2Mrcpdjr8a2+YO2Nm2PU/44blnARExAbA6MLN2wfbrz549OLd5ZmmsOxSn9V8Rs9tavHS4Trkp1u5Mts917k+x/mC8TRXfxV6Hvw2+R8T+JssyRKXDyZp2UXrV04p+Ufvb19yAKP7rY6ZVVP91MZYoys8achP1A0bO6ZOI8QqE8Ml4Pxmka6wO4XQeQ0injKpkeeEE4BaLJANBQrsRmMEjznAQhbgIcW8s07k8ps/VTC/mMz1bQ7WZaiPVKqq5VNVML/OYPsYwnXT+TdSGQaJgTCFyhj/PGgDXaRIAVLC8cAKAryRdGF1H4jQG3lPUY+wshjsYfw9BsAEXfVNgNE7bWRiv1vXW2QSmanrhAdMT9TzzgIWtWq67wdKU3yrWOsFij0EF5bCx9JZN6z1hq9Pcnzbsj4Ttrq2XLFqaCJ3RE648M7sh3wP/WwBWUDgglAMAAJASAJ0BKjwAPAA+bTaSRyQjIaEoGAtQgA2JagDAJbT+k9N1F7sP5VdAFzNuT/bdvs/MB+u/rYeg/ybusA9ADpR/3MmNdwjB8aolqpmUeQP6V9gn9V/+N2FPQr/WZmX7d0mEjuKGe1Mavk6LHgLC6ayXvglJB5U945sx451BFWlZxNsb7euvHOHjg6cwmOarLgYVNFLTPXTmI8hJywAA/ulVygtsdWh5aHlodz7wZ3gzvBnfwwnlB00md4kbqbhrZL7r1lGSqs/+C63/9LCnyUPfx/Es/s3J5qlfDi4NsPyiIBiAa4pYjnXiE3MaqT5zDIX/2vgcSox8wFS5HyGAOKjeSegEmagoJ3T0B+zzh+cCU8Y9NUv0cMlv2LaKEtJQ/tfn+81XcsM/ddVwyH8UqSUYmJ24A6vsnI/A7a8as2vgQ5E9J1w22qxuRyfz78o6mD7mjTZVArVV2Zw1bf+Yf+c5RnvMVUuP2PLETlkcmT5i1pQklgfbncyCFsZWycA4JhUmlRe2+AHFx3DuuPZeTnqwiFHGTwJOf/JBv5oYu0zQOjH11RX1jE7VcLD6/QIFUM2psWHEO/zJ8lIm3iryPwbT9+cL5tTFOGovf75p3SxEJy8c71AnJogg+HjeRgL7DpaqbfsJXrZ976x/cMfj/a4F5HWj+pVxcKsjSBGIKfk1k8/pM0HXGBAn7ZKc3TNVPZpliUPtdioy5DbM8pAv0HJ7oKhzhIj3xlr1VFa4aMCmtU/kzbVPepCCOq+ndElef4qIBlBUWRJFP0L8xZpxqZQv8/8CIABXUD/Gb2fC7FJGg3eTmERDFb48/ov+9h+duogtx8fi7kFWxNdHyucoQsqaJlDzQSEb+QRayVBniNhczcgp/iPu3/3YtQvRdT8y2wYDHuhjrqK+lrPkFdIqA+Fk7tfNpE13Fi6fsz34lSRj1yzw/s3fc2yJ17/3NWiGK9L54ZztR5/WmHm8UJR4RrpA9tLp+caxdSF0OpJmcIcQyLdzJwwTh19XMr76TDhGTqRu8aP4o9rddK8/YiaPdg3Z9U0tqtxKkBzXM9Y3TkjegAdUE8BuggKsQFe7F7Q88n6go+eR2MKMEnxO5u36c9y29F/JG3qWdiriV03XkjmC6Ao8/TMNK7/xRAIObpZCorvr1vTnkEt+PGm5cGX9Fh2jnimr98noAVREbAAxFB4sXxP2G/vm38TT9oPNmtTKram4AAA=",
-      "name": "Cloud Hosting",
+      "name": "Web Hosting",
       "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
-      "id": 9
+      "id": 8
     }
   ],
-  "favorites": [
-    {
-      "id": 3,
-      "image": "img/ss-icon-3.png.webp",
-      "name": "Share Hosting",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
-      "id": 4,
-      "image": "img/ss-icon-4.png.webp",
-      "name": "VPS Server",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
-      "id": 6,
-      "image": "img/ss-icon-6.png.webp",
-      "name": "24/7 Support",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
-      "id": 8,
-      "image": "img/ss-icon-8.png.webp",
-      "name": "Database Hosting",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    }
-  ]
+  "favorites": []
 }

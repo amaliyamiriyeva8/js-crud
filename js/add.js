@@ -15,10 +15,8 @@ form.addEventListener("submit",(event)=>{
         description:description.value
     }
     axios.post(`http://localhost:3000/box`,obj)
-    .then(res=>{
-        window.location="./index.html";
-    
-    })
+   
     }
     reader.readAsDataURL(src);
+    window.location = "./index.html";
     })

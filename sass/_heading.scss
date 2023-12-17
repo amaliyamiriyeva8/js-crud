@@ -363,22 +363,32 @@ main{
 }
 .section5{
   
-    padding: 20px 0px;
+    padding: 25px 0px;
     width: 100%;
     .end{
         width: 100%;
         @include display-beetwen;
         .finish{
-            width: 31.5%;
-            border: 1px solid rgb(222, 222, 222);
-            @include display-center;
+            width: 30%;
+            border: 1px solid gainsboro;
+          @include display-center;
             flex-direction: column;
-            gap: 20px;
-            .img{
-                width: 100%;
+            gap: 15px;
+            transition: all .3s ease;
+            margin: auto;
+            overflow: hidden;
+              &:hover img{
+                transform: scale(1.1);
+            
+          }
+
                 img{
-                    width: 100%;
                     background-size: cover;
+                    transition: all 0.3s;
+                    display: block;
+                    width: 100%;
+                    transform: scale(1);
+                    
                 }
             }
         }
@@ -406,7 +416,7 @@ main{
            
         }
     }
-}
+
 footer{
     padding: 50px 0px;
     background-color: rgb(239, 239, 252);
@@ -594,13 +604,11 @@ footer{
     }
     .section5{
         .end{
-            width: 100%;
+            justify-content: flex-start;
             flex-wrap: wrap;
-            justify-content: space-between;
             display: flex;
-         
             .finish{
-                margin-top: 30px;
+               margin-top: 30px;
                width: 47%;
               
             }

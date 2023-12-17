@@ -1,5 +1,6 @@
 const click_list=document.querySelector("#click-list")
 const list=document.querySelector(".list")
+let page=8;
 
 click_list.addEventListener("click",()=>{
     if(list.style.display !=="block"){
@@ -13,12 +14,12 @@ click_list.addEventListener("click",()=>{
 const js=document.querySelector(".js")
 
 function LoadDataJson(){
-fetch(`http://localhost:3000/box?_page=${page}&_limit=8`)
+fetch(`http://localhost:3000/box/`)
 .then(res=>res.json())
 .then(data=>{
     axios.get('http://localhost:3000/favorites')
             .then(fav => {
-                data.forEach(element => {
+                data.slice(page-8,page).forEach(element => {
                     if (fav.data.find(f => f.id === element.id)){
             js.innerHTML+=`
             <div class="js-item">
@@ -47,13 +48,14 @@ fetch(`http://localhost:3000/box?_page=${page}&_limit=8`)
    
 })
 }
-let page=1;
+LoadDataJson();
 let load=document.querySelector(".mean")
-load.addEventListener("click",(e)=>{
-page++;
+load.addEventListener("click",()=>{
+page+=8;
 LoadDataJson();
+
 })
-LoadDataJson();
+
 function deleteEl(id){
     axios.delete(`http://localhost:3000/box/${id}`)
 }
