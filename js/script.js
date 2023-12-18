@@ -64,13 +64,15 @@ function GetAll(id){
 
 function deleteEl(id){
     axios.delete(`http://localhost:3000/box/${id}`)
+    window.location.reload()
 }
 function updateEl(id) {
     window.location = `update.html?id=${id}`
 }
 let add=document.querySelector("#add")
 add.addEventListener("click",()=>{
-    window.location="./add.html?id"
+    window.location="./add.html?id";
+
 })
 
 function removeFromFav(id){

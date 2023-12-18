@@ -1,33 +1,23 @@
 {
   "box": [
     {
-      "id": 1,
-      "image": "img/ss-icon-1.png.webp",
-      "name": "Cloud Hosting",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
-      "id": 2,
-      "image": "img/ss-icon-2.png.webp",
-      "name": "Web Hosting",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
       "id": 3,
       "image": "img/ss-icon-3.png.webp",
       "name": "Share Hosting",
       "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
     },
     {
-      "id": 4,
-      "image": "img/ss-icon-4.png.webp",
-      "name": "VPS Server",
+      "id": 7,
+      "image": "img/ss-icon-7.png.webp",
+      "name": "Windows Hosting",
       "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
+    }
+  ],
+  "favorites": [
     {
-      "id": 5,
-      "image": "img/ss-icon-5.png.webp",
-      "name": "WHCMS",
+      "id": 2,
+      "image": "img/ss-icon-2.png.webp",
+      "name": "Web Hosting",
       "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
     },
     {
@@ -37,17 +27,10 @@
       "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
     },
     {
-      "id": 7,
-      "image": "img/ss-icon-7.png.webp",
-      "name": "Windows Hosting",
+      "id": 3,
+      "image": "img/ss-icon-3.png.webp",
+      "name": "Share Hosting",
       "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    },
-    {
-      "image": "img/ss-icon-8.png.webp",
-      "name": "Database Hosting",
-      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered.",
-      "id": 8
     }
-  ],
-  "favorites": []
+  ]
 }
